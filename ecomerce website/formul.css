@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Lato:ital@1&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,300;0,700;0,900;1,400&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(245, 245, 245);
+    font-family: 'Roboto', sans-serif;;
+}
+.resaux-scociaux{
+    text-align: center;
+}
+.resaux-scociaux i{
+    padding: 10px;
+    border: 2px solid #545454;
+    border-radius: 100%;
+    width: 20px;
+    cursor: pointer;
+}
+form{
+    margin-top: 100px;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+form h1{
+    color: rgb(235, 115, 113);
+    text-align: center;
+}
+.choisir-email{
+text-align: center;
+
+font-weight: 700;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+form .inputs input[type="email"],input[type=password]{
+padding: 15px;
+border-radius: 5px;
+border: none;
+background-color: #f2f2f2;
+margin-bottom: 15px;
+
+}
+.inscription{
+   font-size:15px;
+   margin-bottom: 20px;
+   color: #878787;
+    
+}
+.inscription span{
+    color:rgb(235, 115, 113) ;
+    font-weight:700;
+}
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color:rgb(243, 110, 108) ;
+    cursor: pointer;
+}

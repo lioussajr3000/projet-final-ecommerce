@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Poppins:wght@300&family=Roboto:wght@300;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Roboto:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
+/* c est le styledu header */
+
+.logo-panier{
+  width: 25px; 
+  height: 25px; 
+}
+.navbar{
+    display: flex;
+}
+.nav  {
+    margin-left: 490px;
+    margin-top: 15px;
+    
+}
+#logo{
+    width: 250px;
+    height: 70px;
+
+    margin-left: 80px;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    padding: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    font-family:  "Montserrat" ,sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+}
+nav li div {
+    height: 3px;
+    background-color: rgb(117, 116, 116);
+    width: 0%;
+    transition: 0,9s;
+    border-radius: 20px;
+}
+nav li:hover div{
+    width: 100%;
+
+}
+
+
+
+/* c est le style du header */
+
+.user{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-bottom: 100px;
+    
+
+}
+.col-1{
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+    box-shadow: 1px 0 8px 0 black;
+}
+.col-1:hover{
+    transform: translatey(-20px);
+}
+.col-1 p{
+    margin-top: 150px;
+
+    
+}
+.col-1  img{
+  
+    width: 70px;;
+    border-radius: 60px;;
+}
+.col-2{
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+    box-shadow: 1px 0 8px 0 black
+   
+}
+.col-2:hover{
+    transform: translatey(-20px);
+}
+.col-2 p{
+    margin-top: 150px;
+
+}
+.col-2 img{
+    width: 70px;;
+    border-radius: 60px;;
+}
+.col-3{
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+    box-shadow: 1px 0 8px 0 black
+
+}
+.col-3:hover{
+    transform: translatey(-20px);
+}
+.col-3 p{
+    margin-top: 150px;
+}
+.col-3 img{
+    width: 70px;
+    border-radius: 60px;
+}
+.etoil i{
+    color: orangered;
+   
+}
+.etoil{
+    margin-bottom:15px;
+    
+}
+
+.user p{
+    font-family: "Poppins";
+  color:rgb(163, 163, 163);
+  font-size:large;
+  margin-top:40px ;
+    
+}
+/* ces le style du footer */
+.foot{
+    background-color: black;
+    display: flex;
+    height:370px;
+    
+}
+#tele{
+    color: #555;
+    font-family: "Poppins";
+    
+}
+#press{
+    color: #888888;
+    font-family: "Poppins";
+}
+.foot-col-1{
+    margin-left: 70px;
+    margin-top: 100px;
+    font-size: 10px;
+    
+}
+.foot-col-1 img{
+    width: 150px;
+}
+.foot-col-2 img{
+    width: 200px;
+    margin-left:60px ;
+    margin-top: 100px;
+}
+.foot-col-2 p{
+    color: #555;
+    margin-left: 25px;
+    font-family: "Poppins";
+   
+    
+}
+.foot-col-3 h2{
+ color: #555;
+ margin-left:60px ;
+ margin-top: 100px;
+ font-family: "roboto";
+}
+.foot-col-3 ul li a{
+    text-decoration: none;
+    color: #555;
+    font-family: "Poppins";
+    
+}
+.foot-col-3 ul li a:hover{
+    color: whitesmoke;
+}
+
+.foot-col-3 ul li div{
+    height: 3px;
+    background-color: rgb(117, 116, 116);
+    width: 0%;
+    transition: 1s;
+    border-radius: 20px;
+}
+#a-1:hover div{
+    width: 80px;
+    color: #555;
+}
+#a-2:hover div{
+    width: 90px;
+    color: #555;
+}
+#a-3:hover div{
+    width: 150px;
+    color: #555;
+}
+.foot-col-3  li:hover div{
+    width: 100%;
+    color: #555;
+}
+.partenaire{
+    display: flex;
+    margin-left: 250px;
+    padding-bottom: 70px
+   
+}
+.partenaire img{
+    
+padding: 15px;  
+
+
+}
+.foot-col-4 h2{
+    color: #555;
+ margin-top: 100px;
+ font-family: "roboto";
+    
+}
+.resau ul li{
+ 
+  list-style-type: none;
+}
+.resau ul li a{
+    text-decoration: none;
+    color: #555;
+    font-family: "Poppins";
+}
+.resau ul li div{
+    height: 3px;
+    background-color: rgb(117, 116, 116);
+    width: 0%;
+    transition: 1s;
+    border-radius: 20px;
+}
+#Facebook:hover div{
+ 
+ width: 100px;
+}
+#Twitter:hover div{
+    width: 50px;
+}
+#Instagram:hover div{
+    width: 65px;
+}
+#YouTube:hover div{
+    width:62px;
+}
+.resau ul li a:hover{
+    color: whitesmoke;
+    
+}
+.fa.fa-quote-left {
+    font-size: 50px;
+    color: #ff523b;
+    margin-top: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+

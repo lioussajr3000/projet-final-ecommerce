@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Poppins:wght@300&family=Roboto:wght@300;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Roboto:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Lato:ital@1&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital,wght@0,300;0,700;1,700;1,800&family=Poppins:wght@300;400&family=Roboto:wght@300;700;900&display=swap');
+/* c est le styledu header */
+body{
+    background-color: rgb(255, 223, 248);
+    font-family: 'Roboto', sans-serif;
+}
+.logo-panier{
+  width: 25px; 
+  height: 25px; 
+}
+.navbar{
+    display: flex;
+}
+.nav  {
+    margin-left: 490px;
+    margin-top: 15px;
+    
+}
+#logo{
+    width: 250px;
+    height: 70px;
+
+    margin-left: 80px;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    padding: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    font-family:  "Montserrat" ,sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+}
+nav li div {
+    height: 3px;
+    background-color: rgb(117, 116, 116);
+    width: 0%;
+    transition: 0,9s;
+    border-radius: 20px;
+}
+nav li:hover div{
+    width: 100%;
+
+}
+
+
+
+/* c est le style du header */
+.col{
+    display: flex;
+}
+.col-1{
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 150px;
+    
+  
+
+}
+.col-1 img{
+    width: 100%;
+}
+
+
+/* ces le style de la page de connection */
+
+
+
+.resaux-scociaux{
+    text-align: center;
+}
+.resaux-scociaux i{
+    padding: 10px;
+    border: 2px solid #545454;
+    border-radius: 100%;
+    width: 20px;
+    cursor: pointer;
+}
+form{
+    width: 300px;
+}
+form h1{
+    color: rgb(235, 115, 113);
+    text-align: center;
+}
+.choisir-email{
+text-align: center;
+
+font-weight: 700;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+form .inputs input[type="email"],input[type=password]{
+padding: 15px;
+border-radius: 5px;
+border: none;
+background-color: #f2f2f2;
+margin-bottom: 15px;
+
+}
+.inscription{
+   font-size:15px;
+   margin-bottom: 20px;
+   color: #878787;
+   cursor: pointer;
+    
+}
+.inscription span{
+    color:rgb(235, 115, 113) ;
+    font-weight:700;
+}
+form button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color:rgb(243, 110, 108) ;
+    cursor: pointer;
+    margin-left: 25%;
+    
+}
+form button:hover{
+background-color: rgb(255, 108, 133);
+}
+#col-2{
+    margin-top: 30px;
+    background-color: white;
+    padding: 40px 60px;
+    width: 300px;
+    margin-left: 70px;
+    display: flex;
+    border-radius: 20px;
+}
+
+#form-11{
+padding: 15px;
+  
+}
+.non-visible{
+    visibility: hidden;
+    opacity: 0;
+}
+.trasition{
+    transition:translate 1s ;
+    transform: translate(-400px);
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.col-2{
+    margin-top: 30px;
+    background-color: white;
+    padding: 40px 60px;
+    width: 350px;
+    margin-left: 50px;
+    display: flex;
+    border-radius: 20px;
+}
+#i span{
+    border: 1px solid transparent;
+    margin-left: px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:  rgb(255, 108, 133);
+    
+  
+
+    
+}
+#i:hover{
+    transform: translateY(-5px);
+}
+#i{
+    margin-top: 40px;
+    transition: 0.5s ease-in-out;
+    
+}
+#return{
+    margin-left: -25px;
+    user-select: none;
+}
+#green{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px 60px;
+    width: 350px;
+    margin-left: -250px;
+    display: flex;
+    border-radius: 20px;
+}
+
+ img{
+width: 150px;
+} 
+#pourgreen{
+    margin-top: 20px;
+    background-color: white;
+    
+    width: 200px;
+    margin-left: -700px;
+    display: flex;
+    border-radius: 20px;
+ 
+    
+} 
+.green div{
+    padding: 15px 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color:rgb(255, 108, 133);
+    width: 200px;
+    transition: 1s ease-in-out;
+   
+
+}
+.green div a{
+    text-decoration: none;
+    color: #545454;
+    font-family: "Poppins";
+}
+.green div:hover{
+    transform: translateY(-5px);
+}
+#lien{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
